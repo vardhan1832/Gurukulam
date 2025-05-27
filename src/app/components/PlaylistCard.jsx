@@ -7,7 +7,7 @@ export default function PlaylistCard({ playlist }) {
       <img
         src={playlist.image || "/youtube-thumbnail.jpg"}
         alt={playlist.title}
-        className="w-full h-40 object-cover rounded-lg mb-4"
+        className="w-100 h-40 object-cover rounded-lg mb-4"
       />
       <h3 className="text-xl font-semibold mb-2">{playlist.title}</h3>
       <p className="text-gray-600 text-sm mb-4">{playlist.description?.slice(0, 100)}...</p>

@@ -1,7 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import TabMenu from "./components/TabMenu";
 import PlaylistCard from "./components/PlaylistCard";
 import { getCoursesByCategory } from "../lib/getCourses";

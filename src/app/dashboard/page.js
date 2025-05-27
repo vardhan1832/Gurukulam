@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 import { auth, db } from "../../firebase/firebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
 import { collection, getDocs } from "firebase/firestore";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 export default function Dashboard() {
   const [user, setUser] = useState(null);
