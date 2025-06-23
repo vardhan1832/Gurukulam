@@ -9,7 +9,7 @@ export default function Header() {
       animate={{ y: 0, opacity: 1 }}
       className="bg-gradient-to-r from-indigo-600 to-purple-600 shadow-lg"
     >
-      <nav className="max-w-7xl mx-auto px-4 py-4">
+      <nav className="max-w-7xl mx-auto px-4 py-6">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
             <motion.span
